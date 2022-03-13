@@ -10,6 +10,6 @@ class InfinitySlots extends PluginBase implements Listener{
     
     //onEnable
     public function onEnable(): void{
-        $this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
+        $this->getServer()->getPluginManager()->registerEvents(new EventListener(), $this);
     }
 }
