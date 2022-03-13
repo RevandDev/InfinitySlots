@@ -1,0 +1,5 @@
+name: InfinitySlots
+main: InfinitySlots\InfinitySlots
+version: 1.0
+api: [4.0.0]
+author: RevandDev
