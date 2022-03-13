@@ -5,4 +5,5 @@ branches:
 projects:
   InfinitySlots:
     path: ""
+    lint: false
 ...
