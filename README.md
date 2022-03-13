@@ -1,0 +1,2 @@
+# InfinitySlots
+InfinitySlots PocketMine Plugin
