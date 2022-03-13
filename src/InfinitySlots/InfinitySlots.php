@@ -4,7 +4,7 @@ namespace InfinitySlots;
 
 use pocketmine\Server;
 use pocketmine\plugin\PluginBase;
-use pocketmine\Event\Listener;
+use pocketmine\event\Listener;
 
 class InfinitySlots extends PluginBase implements Listener{
     
