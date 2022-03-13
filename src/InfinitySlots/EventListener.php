@@ -12,7 +12,7 @@ class EventListener implements Listener{
         $event->getQueryInfo()->setMaxPlayerCount($event->getQueryInfo()->getPlayerCount() + 1);
     }
     
-    public functipn onPreLogin(PlayerPreLoginEvent $event){
+    public function onPreLogin(PlayerPreLoginEvent $event){
         if(in_array($event::KICK_REASON_SERVER_FULL, $event->getKickReasons())){
             $event->uncancel();
         }
